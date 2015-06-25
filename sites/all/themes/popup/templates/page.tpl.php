@@ -2,6 +2,7 @@
 	
 	<header>
 		<?php print render($page['header']); ?>
+		<img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
 		<h1><?php print $site_name;?></h1>
 	</header>
 	
