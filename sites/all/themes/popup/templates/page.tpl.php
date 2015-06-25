@@ -1,6 +1,7 @@
-<section class="content wrapper">
+<section class="content">
 	
 	<section id="highlighted">
+		<div class="wrapper">
 		<header>
 			<?php print render($page['header']); ?>
 			<img class="logo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
@@ -9,8 +10,9 @@
 		<?php print render($page['highlighted']); ?>
 		<?php print render($page['content']); ?>
 		<?php print render($page['app_links']); ?>
+		</div>
 	</section>
-
+	<div class="wrapper">
 	<section id="first">
 		<?php print render($page['first_section']); ?>
 	</section>
@@ -22,9 +24,8 @@
 	<section id="third">
 		<?php print render($page['third_section']); ?>
 	</section>
-
+	</div>
 	<footer>
 		<?php print render($page['footer']); ?>
 	</footer>
-	
 </section>
