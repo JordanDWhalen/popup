@@ -2,6 +2,16 @@ body{
 	margin:0;
 }
 
+/********************************
+	Header
+*********************************/
+
+.logo { max-width: 100px; }
+
+/********************************
+	Highlighted region
+*********************************/
+
 #highlighted{
 	background-image: url("../images/blackboard.jpg");
 }
@@ -15,3 +25,21 @@ body{
 #highlighted p{
 	color: white;
 }
+
+/********************************
+	Image Styling
+*********************************/
+	img{
+		max-width: 100%;
+	}
+
+	@media (min-width: 600px) {
+  		.left {
+    		float:left;
+    		max-width: 45%;
+    		margin-right: 5%;  		
+    	}
+	}
+/********************************
+	Email form
+*********************************/
