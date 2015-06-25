@@ -6,7 +6,6 @@
 			<img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
 			<h1><?php print $site_name;?></h1>
 		</header>
-		<img src="sites/all/themes/popup/images/highlighted_iphone.png" alt="Popup Teacher icon on iPhone">
 		<?php print render($page['highlighted']); ?>
 		<?php print render($page['content']); ?>
 		<?php print render($page['app_links']); ?>
