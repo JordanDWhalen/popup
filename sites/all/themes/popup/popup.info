@@ -12,7 +12,6 @@ regions[third_section] = Third Section
 
 regions[footer] = Footer
 
-stylesheets[all][] = css/colors.css
 stylesheets[all][] = css/fonts.css
 stylesheets[all][] = css/style.css
 stylesheets[print][] = css/print.css
