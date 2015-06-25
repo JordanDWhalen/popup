@@ -4,8 +4,27 @@
 	font-family: 'Cabin', sans-serif; 
 }
 
-h2{
+h1{
+	font-weight: bold;
 	font-size: 36px;
+	margin: 12px 0 15px;
+	color: white;
+}
+
+h2{
+	font-size: 32px;
 	font-weight: bold;
 	color: #E24D4D;
+}
+
+@media (min-width: 600px) {
+
+	h1{
+		font-size: 50px;
+	}
+
+	h2{
+		font-size: 36px;
+	}
+
 }
