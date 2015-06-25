@@ -1,12 +1,11 @@
 <section class="content wrapper">
 	
-	<header>
-		<?php print render($page['header']); ?>
-		<img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-		<h1><?php print $site_name;?></h1>
-	</header>
-	
 	<section id="highlighted">
+		<header>
+			<?php print render($page['header']); ?>
+			<img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+			<h1><?php print $site_name;?></h1>
+		</header>
 		<?php print render($page['highlighted']); ?>
 		<?php print render($page['content']); ?>
 		<?php print render($page['app_links']); ?>

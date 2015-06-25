@@ -1,0 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,700);
+
+* { 
+	font-family: 'Cabin', sans-serif; 
+}
+
+h2{
+	font-size: 36px;
+	font-weight: bold;
+	color: #E24D4D;
+}
