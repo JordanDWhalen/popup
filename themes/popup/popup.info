@@ -1,15 +1,15 @@
 name = Popup
 description = A single page theme for the Popup Teacher marketing website
-package = Core
-version = VERSION
 core = 7.x
 
 regions[header] = Header
 regions[highlighted] = Highlighted
+regions[app_links] = App Links
 regions[content] = Content
 regions[first_section] = First Section
 regions[second_section] = Second Section
 regions[third_section] = Third Section
+
 regions[footer] = Footer
 
 stylesheets[all][] = css/colors.css
