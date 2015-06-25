@@ -1,3 +1,17 @@
+body{
+	margin:0;
+}
+
 #highlighted{
 	background-image: url("../images/blackboard.jpg");
+}
+
+#highlighted h1{
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+}
+
+#highlighted p{
+	color: white;
 }
