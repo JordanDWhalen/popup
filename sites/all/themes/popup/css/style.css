@@ -1,5 +1,9 @@
 body{
-	margin:0;
+	margin:0 1em;
+
+	@media (min-width: 600px) {
+		margin: 0;
+	}
 }
 
 .wrapper{
@@ -20,10 +24,6 @@ body{
 	margin-right: 20px;
 }
 
-#highlighted header{
-	float: right;
-}
-
 #highlighted h1{
 	font-weight: bold;
 	font-size: 50px;
@@ -33,6 +33,16 @@ body{
 
 #highlighted p{
 	color: white;
+}
+
+
+@media (min-width: 600px) {
+
+	#highlighted header{
+		float: right;
+		width: 50%;
+	}
+
 }
 
 /********************************
