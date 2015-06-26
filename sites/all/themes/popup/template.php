@@ -2,7 +2,7 @@
 /**
  * Implements hook_page_alter().
  */
-function THEMENAME_page_alter($page) {
+function popup_page_alter($page) {
   // Add meta tag for viewport, for easier responsive theme design.
   $viewport = array(
     '#type' => 'html_tag',
