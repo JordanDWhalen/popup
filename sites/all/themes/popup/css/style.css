@@ -76,6 +76,7 @@ img{
 /********************************
 	App links
 *********************************/
+
 .region-app-links{
 	  position: relative;
 	  top: 40px;
@@ -112,4 +113,13 @@ a.iPhone{
 a.Android{
 	background-image: url("../images/play.png");
 	background-position: right;
+}
+
+/********************************
+	Content Section Styles
+*********************************/
+
+#first, #second, #third{
+	margin-top: 20px;
+	border-top: 1px solid #4a4a4a;
 }
