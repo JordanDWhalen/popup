@@ -25,6 +25,12 @@ p{
 	line-height: 1.5;
 }
 
+@media (min-width: 600px) {
+	h2{
+		text-align: left;
+	}
+}
+
 @media (min-width: 800px) {
 
 	h1{
@@ -33,7 +39,7 @@ p{
 	}
 
 	h2{
-		text-align: left;
+	
 		font-size: 36px;
 	}
 

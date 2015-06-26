@@ -110,7 +110,7 @@ img{
 
 #block-block-7{
 	float: right;
-	width: 55%;
+	width: 65%;
 	display: block;
 }
 
@@ -187,7 +187,7 @@ a.Android{
 @media (min-width: 600px) {
 	.region-app-links{
 		float: right;
-		width: 55%;
+		width: 65%;
 		margin-top: -10px;
 	}
 
