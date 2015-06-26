@@ -77,13 +77,25 @@ img{
 	App links
 *********************************/
 
-.region-app-links a{
-	text-indent: -9999px;
+.region-app-links ul {
+	padding: 0;
 	display: inline-block;
+	width: 100%;
 }
 
 .region-app-links li {
 	list-style: none;
+	float: left;
+	width: 50%;
+	height: 50px;
+}
+
+.region-app-links a{
+	text-indent: -9999px;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-size: contain;
 }
 
 a.Android{
