@@ -241,11 +241,12 @@ footer{
 footer .wrapper { 
 max-width: 740px;}
 
-footer li{
-	height: 44px;
-	width: 150px;
+@media (min-width: 600px) {
+	footer li{
+		height: 44px;
+		width: 150px;
+	}
 }
-
 .region-footer .block{
 	display: inline-block;
 }
