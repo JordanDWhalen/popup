@@ -36,12 +36,15 @@ body{
 	color: white;
 }
 
-
 @media (min-width: 600px) {
 
-	#highlighted header{
+	#highlighted header, #highlighted .block-system-main{
 		float: right;
 		width: 50%;
+	}
+
+	#highlighted .block-imageblock {
+		width: 45%;
 	}
 
 }
