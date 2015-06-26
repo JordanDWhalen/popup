@@ -76,6 +76,12 @@ img{
 /********************************
 	App links
 *********************************/
+.region-app-links{
+	  position: relative;
+	  top: 40px;
+	  margin-top: -50px;
+	  margin-bottom: 50px;
+}
 
 .region-app-links .content ul {
 	padding: 0;
@@ -99,10 +105,11 @@ img{
 	background-repeat: no-repeat;
 }
 
-a.Android{
-	background-image: url("../images/play.png");
-}
-
 a.iPhone{
 	background-image: url("../images/appstore.png");
+}
+
+a.Android{
+	background-image: url("../images/play.png");
+	background-position: right;
 }
