@@ -35,7 +35,11 @@ img{
 		max-width: 360px;
 		width: 30%;
 		float: right;
-		margin-right: 20px;
+		margin-right: 5%;
+	}
+
+	#block-imageblock-2 h2{
+		margin-left: 35%;
 	}
 
 	#block-imageblock-2 .block-image, #block-imageblock-4 .block-image{
@@ -71,10 +75,6 @@ img{
 }
 
 @media (min-width: 600px) {
-	
-	#highlighted{
-		padding: 2em;
-	}
 
 	#highlighted header, #highlighted #block-system-main{
 		float: right;
