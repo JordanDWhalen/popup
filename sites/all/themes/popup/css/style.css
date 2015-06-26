@@ -160,6 +160,11 @@ a.Android{
 	.region-app-links{
 		float: right;
 		width: 55%;
+		margin-top: 20px;
+	}
+
+	.app-links li {
+		width: 170px;
 	}
 }
 
