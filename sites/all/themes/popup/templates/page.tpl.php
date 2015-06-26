@@ -12,7 +12,9 @@
 		</div>
 	</section>
 	<div class="wrapper">
+	<?php if (!drupal_is_front_page()) { ?>
 	<?php print render($page['content']); ?>
+	<?php } ?>
 	<section id="first">
 		<?php print render($page['first_section']); ?>
 	</section>
