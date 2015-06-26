@@ -123,3 +123,13 @@ a.Android{
 	margin-top: 40px;
 	border-top: 1px solid #4a4a4a;
 }
+
+/********************************
+	Footer
+*********************************/
+
+.region-footer{
+	margin-top: 30px;
+	background-image: url("../images/blackboard.jpg");
+	padding: 2em 1em;
+}
