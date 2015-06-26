@@ -74,6 +74,11 @@ img{
 	Email form
 *********************************/
 
+#block-block-7{
+	float: right;
+	display: block;
+}
+
 .email{
 	display: inline-block;
 }
@@ -83,8 +88,8 @@ img{
 	font-size: 20px;
 	padding: 10px;
 	-webkit-appearance: none;
+	border: none;
 }
-
 
 .email input[type="email"]{
 	border-radius: 5px 0 0 5px;
@@ -97,7 +102,7 @@ img{
 }
 
 @media (max-width: 600px) {
-	.email{
+	.email, #block-block-7{
 		display: none;
 	}
 }
