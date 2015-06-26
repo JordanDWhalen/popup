@@ -49,6 +49,10 @@ body{
 		width: 55%;
 	}
 
+	#highlighted header{
+		margin-top: 15%;
+	}
+
 	#highlighted .block-imageblock {
 		float: left;
 		max-width: 360px;
