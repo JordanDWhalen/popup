@@ -50,6 +50,7 @@ img{
 
 	#block-imageblock-2 .block-image, #block-imageblock-4 .block-image{
 		float: left;
+		margin-right: 5%;
 	}
 
 }
