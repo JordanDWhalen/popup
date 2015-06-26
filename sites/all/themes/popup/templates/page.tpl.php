@@ -8,11 +8,11 @@
 			<h1><?php print $site_name;?></h1>
 		</header>
 		<?php print render($page['highlighted']); ?>
-		<?php print render($page['content']); ?>
 		<?php print render($page['app_links']); ?>
 		</div>
 	</section>
 	<div class="wrapper">
+	<?php print render($page['content']); ?>
 	<section id="first">
 		<?php print render($page['first_section']); ?>
 	</section>
