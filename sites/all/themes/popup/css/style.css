@@ -45,6 +45,10 @@ body{
 }
 
 @media (min-width: 600px) {
+	
+	#highlighted{
+		padding: 2em;
+	}
 
 	#highlighted header, #highlighted #block-system-main{
 		float: right;
@@ -53,6 +57,7 @@ body{
 
 	#highlighted header{
 		margin-top: 15%;
+		margin: 0;
 	}
 
 	#highlighted .block-imageblock {
@@ -160,7 +165,7 @@ a.Android{
 	.region-app-links{
 		float: right;
 		width: 55%;
-		margin-top: 20px;
+		margin-top: -10px;
 	}
 
 	.app-links li {
