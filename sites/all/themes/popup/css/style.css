@@ -50,6 +50,7 @@ body{
 	}
 
 	#highlighted .block-imageblock {
+		float: left;
 		max-width: 360px;
 	}
 
@@ -66,6 +67,21 @@ img{
 /********************************
 	Email form
 *********************************/
+
+.email{
+
+}
+
+.email input{
+	display: inline-block;
+	font-size: 20px;
+	padding: 6px;
+}
+
+
+.email input[type="email"]{
+
+}
 
 @media (max-width: 600px) {
 	.email{
