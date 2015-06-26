@@ -17,6 +17,12 @@ h2{
 	color: #E24D4D;
 }
 
+p{
+	font-size: 22px;
+	color: #4A4A4A;
+	line-height: 1.5;
+}
+
 @media (min-width: 600px) {
 
 	h1{

@@ -26,6 +26,12 @@ body{
 	background-image: url("../images/blackboard.jpg");
 }
 
+#highlighted header{
+	display: inline-block;
+	width: 100%;
+	margin: 1em;
+}
+
 .logo{
 	max-width: 80px;
 	float: left;
