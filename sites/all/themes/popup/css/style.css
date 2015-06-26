@@ -77,27 +77,27 @@ img{
 	App links
 *********************************/
 
-.app-links{
+.region-app-links{
 	  position: relative;
 	  top: 40px;
 	  margin-top: -50px;
 	  margin-bottom: 50px;
 }
 
-.app-links ul {
+.region-app-links .content ul {
 	padding: 0;
 	display: inline-block;
 	width: 100%;
 }
 
-.app-links li {
+.app-links .content li {
 	list-style: none;
 	float: left;
 	width: 50%;
 	height: 50px;
 }
 
-.app-links a{
+.app-links .content a{
 	text-indent: -9999px;
 	display: inline-block;
 	width: 100%;
