@@ -78,7 +78,7 @@ img{
 
 	#highlighted header, #highlighted #block-system-main{
 		float: right;
-		width: 55%;
+		width: 65%;
 	}
 
 	#highlighted header{
@@ -86,13 +86,14 @@ img{
 	}
 
 	#block-imageblock-4 {
-		width: 45%;
+		width: 35%;
 	}
 
 	#block-imageblock-4 .block-image {
 		float: left;
 		width: auto;
 		max-width: 360px;
+		width: 100%;
 	}
 
 }
