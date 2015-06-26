@@ -40,6 +40,7 @@ body{
 
 #highlighted p{
 	color: white;
+	padding: 1em;
 }
 
 @media (min-width: 600px) {
@@ -59,18 +60,30 @@ body{
 	Image Styling
 *********************************/
 	
-	img{
-		max-width: 100%;
-	}
-
-	@media (min-width: 600px) {
-  		.left {
-    		float:left;
-    		max-width: 45%;
-    		margin-right: 5%;  		
-    	}
-	}
+img{
+	max-width: 100%;
+}
 
 /********************************
 	Email form
 *********************************/
+
+@media (max-width: 600px) {
+	.email{
+		display: none;
+	}
+}
+
+/********************************
+	App links
+*********************************/
+
+a.Android{
+	text-indent: -9999px;
+	background-image: url("../images/play.png");
+}
+
+a.iPhone{
+	text-indent: -9999px;
+	background-image: url("../images/appstore.png");
+}
