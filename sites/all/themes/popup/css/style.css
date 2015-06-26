@@ -19,6 +19,29 @@ body{
 }
 
 /********************************
+	Image Styling
+*********************************/
+	
+img{
+	max-width: 100%;
+}
+
+@media (min-width: 600px) {
+
+	.block-image{
+		max-width: 360px;
+		width: 30%;
+		float: right;
+		margin-right: 20px;
+	}
+
+	#block-imageblock-2 .block-image, #block-imageblock-4 .block-image{
+		float: left;
+	}
+
+}
+
+/********************************
 	Highlighted region
 *********************************/
 
@@ -59,32 +82,13 @@ body{
 		margin: 80px 0 0 0;
 	}
 
-	#highlighted .block-imageblock {
-		float: left;
-		max-width: 360px;
+	#block-imageblock-4 {
+		width: 45%;
 	}
 
-}
-
-/********************************
-	Image Styling
-*********************************/
-	
-img{
-	max-width: 100%;
-}
-
-@media (min-width: 600px) {
-
-	.block-image{
-		max-width: 360px;
-		width: 30%;
-		float: right;
-		margin-right: 20px;
-	}
-
-	#block-imageblock-2 .block-image, #block-imageblock-4 .block-image{
+	#block-imageblock-4 .block-image {
 		float: left;
+		max-width: 360px;
 	}
 
 }
