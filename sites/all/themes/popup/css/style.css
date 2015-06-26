@@ -24,6 +24,8 @@ body{
 
 #highlighted{
 	background-image: url("../images/blackboard.jpg");
+	display: inline-block;
+	width: 100%;
 }
 
 #highlighted header{
@@ -80,6 +82,7 @@ img{
 
 #block-block-7{
 	float: right;
+	width: 55%;
 	display: block;
 }
 
@@ -151,6 +154,13 @@ a.iPhone{
 a.Android{
 	background-image: url("../images/play.png");
 	background-position: right;
+}
+
+@media (max-width: 600px) {
+	.region-app-links{
+		float: right;
+		width: 55%;
+	}
 }
 
 /********************************
