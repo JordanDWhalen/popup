@@ -160,10 +160,9 @@ img{
 *********************************/
 
 .region-app-links{
-	  position: relative;
-	  top: 40px;
-	  margin-top: -50px;
-	  margin-bottom: 50px;
+	position: relative;
+	top: 40px;
+	margin-top: -50px;
 }
 
 .app-links{
