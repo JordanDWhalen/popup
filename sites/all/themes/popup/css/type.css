@@ -15,6 +15,7 @@ h2{
 	font-size: 32px;
 	font-weight: bold;
 	color: #E24D4D;
+	text-align: center;
 }
 
 p{
@@ -30,6 +31,7 @@ p{
 	}
 
 	h2{
+		text-align: left;
 		font-size: 36px;
 	}
 
