@@ -28,6 +28,8 @@
 	</section>
 	</div>
 	<footer>
-		<?php print render($page['footer']); ?>
+		<div class="wrapper">
+			<?php print render($page['footer']); ?>
+		</div>
 	</footer>
 </section>
