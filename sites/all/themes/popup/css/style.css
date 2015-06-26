@@ -35,11 +35,17 @@ img{
 		max-width: 360px;
 		width: 30%;
 		float: right;
-		margin-right: 5%;
+		margin-left: 5%;
+	}
+
+	h2{
+		float: left;
+		width: 65%;
 	}
 
 	#block-imageblock-2 h2{
-		margin-left: 35%;
+		float: right;
+		width: 65%;
 	}
 
 	#block-imageblock-2 .block-image, #block-imageblock-4 .block-image{
