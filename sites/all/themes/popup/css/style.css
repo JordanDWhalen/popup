@@ -81,17 +81,19 @@ img{
 .email input{
 	float: left;
 	font-size: 20px;
-	padding: 6px;
+	padding: 10px;
 	-webkit-appearance: none;
 }
 
 
 .email input[type="email"]{
-
+	border-radius: 5px 0 0 5px;
 }
 
 .email input[type="submit"]{
-	border-radius: 5px 0 0 5px;
+	border-radius: 0 5px 5px 0;
+	background-color: #70CC8F;
+	color: white;
 }
 
 @media (max-width: 600px) {
