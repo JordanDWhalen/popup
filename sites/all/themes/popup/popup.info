@@ -2,7 +2,6 @@ name = Popup
 description = A single page theme for the Popup Teacher marketing website
 core = 7.x
 
-regions[header] = Header
 regions[highlighted] = Highlighted
 regions[app_links] = App Links
 regions[content] = Content
