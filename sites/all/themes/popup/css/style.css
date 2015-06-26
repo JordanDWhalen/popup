@@ -232,7 +232,7 @@ a.Android{
 	Footer
 *********************************/
 
-.region-footer{
+footer{
 	margin-top: 60px;
 	background-image: url("../images/blackboard.jpg");
 	padding: 2em 1em;
