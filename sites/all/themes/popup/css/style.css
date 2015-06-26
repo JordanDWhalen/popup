@@ -74,11 +74,19 @@ img{
 	max-width: 100%;
 }
 
-.block-image{
-	max-width: 360px;
-	width: 30%;
-	float: right;
-	margin-right: 20px;
+@media (min-width: 600px) {
+
+	.block-image{
+		max-width: 360px;
+		width: 30%;
+		float: right;
+		margin-right: 20px;
+	}
+
+	#block-imageblock-3 .block-image{
+		float: left;
+	}
+
 }
 
 /********************************
