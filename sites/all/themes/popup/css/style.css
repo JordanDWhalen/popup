@@ -238,6 +238,14 @@ footer{
 	padding: 2em 1em;
 }
 
+footer .wrapper { 
+max-width: 740px;}
+
+footer li{
+	height: 44px;
+	width: 150px;
+}
+
 .region-footer .block{
 	display: inline-block;
 }
