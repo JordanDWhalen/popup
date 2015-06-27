@@ -246,7 +246,7 @@ max-width: 740px;}
 		height: 44px;
 		width: 150px;
 	}
-}
-.region-footer .block{
-	display: inline-block;
+	.region-footer .block{
+		display: inline-block;
+	}
 }
