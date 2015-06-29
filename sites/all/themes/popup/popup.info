@@ -18,4 +18,3 @@ stylesheets[print][] = css/print.css
 features[] = logo
 features[] = name
 features[] = slogan
-features[] = favicon
