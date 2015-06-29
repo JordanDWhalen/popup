@@ -48,7 +48,7 @@
 
 <head profile="<?php print $grddl_profile; ?>">
 	<?php print $head; ?>
-	<title><?php print $head_title; ?></title>
+	<title>Popup Teacher - Learning by repetition.</title>
 	<?php print $styles; ?>
 	<?php print $scripts; ?>
 	<link rel="apple-touch-icon" sizes="57x57" href="sites/all/themes/popup/images/favicon/apple-touch-icon-57x57.png">
